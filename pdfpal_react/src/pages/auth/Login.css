@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');             /* regular face */
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@700&display=swap');    /* bold face */
+
+/* finished */
+.login {
+    background-color: #2f2f2f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .login .div {
+    background-color: #2f2f2f;
+    height: 1024px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .login .overlap-group {
+    height: 589px;
+    left: 479px;
+    position: absolute;
+    top: 227px;
+    width: 466px;
+  }
+  
+  .login .rectangle {
+    background-color: #915da3;
+    height: 570px;
+    left: 15px;
+    position: absolute;
+    top: 19px;
+    width: 451px;
+  }
+  
+  .login .rectangle-2 {
+    background-color: #f4f4f4;
+    height: 570px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 451px;
+  }
+  
+  .login .text-wrapper {
+    color: #000000;
+    font-family: "Kadwa", Helvetica;
+    font-size: 50px;
+    font-weight: 400;
+    left: 158px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 18px;
+  }
+  
+  .login .rectangle-3 {
+    background-color: #d9d9d9;
+    height: 64px;
+    left: 41px;
+    position: absolute;
+    top: 153px;
+    width: 369px;
+  }
+  
+  .login .rectangle-4 {
+    background-color: #d9d9d9;
+    height: 64px;
+    left: 41px;
+    position: absolute;
+    top: 252px;
+    width: 369px;
+  }
+  
+  .login .rectangle-5 {
+    background-color: #915da380;
+    height: 1px;
+    left: 41px;
+    position: absolute;
+    top: 216px;
+    width: 367px;
+  }
+  
+  .login .rectangle-6 {
+    background-color: #915da380;
+    height: 1px;
+    left: 41px;
+    position: absolute;
+    top: 316px;
+    width: 367px;
+  }
+  
+  .login .text-wrapper-2 {
+    color: #00000054;
+    font-family: "Kadwa", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 106px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 163px;
+  }
+  
+  .login .text-wrapper-3 {
+    color: #00000054;
+    font-family: "Kadwa", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 106px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 263px;
+  }
+  
+  .login .key-solid {
+    height: 27px;
+    left: 60px;
+    position: absolute;
+    top: 271px;
+    width: 27px;
+  }
+  
+  .login .user-solid {
+    height: 26px;
+    left: 60px;
+    position: absolute;
+    top: 171px;
+    width: 26px;
+  }
+  
+  .login .rectangle-7 {
+    background-color: #915da3bf;
+    height: 65px;
+    left: 144px;
+    position: absolute;
+    top: 351px;
+    width: 162px;
+  }
+  
+  .login .rectangle-8 {
+    background-color: #915da3bf;
+    height: 61px;
+    left: 73px;
+    position: absolute;
+    top: 474px;
+    width: 303px;
+  }
+  
+  .login .text-wrapper-4 {
+    color: #000000;
+    font-family: "Kadwa", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 143px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 361px;
+    width: 163px;
+  }
+  
+  .login .text-wrapper-5 {
+    color: #000000;
+    font-family: "Kadwa", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 123px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 484px;
+  }
+  
+  .login .text-wrapper-6 {
+    color: #915da3bf;
+    font-family: "Kadwa", Helvetica;
+    font-size: 64px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    width: 279px;
+  }
+  
+  .login .text-wrapper-7 {
+    color: #d9d9d9;
+    font-family: "Kadwa", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 972px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+  }
+  
+  .login .text-wrapper-8 {
+    color: #d9d9d9;
+    font-family: "Kadwa", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 1284px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+  }
+  
+  .login .text-wrapper-9 {
+    color: #d9d9d9;
+    font-family: "Kadwa", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 1099px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+  }
+  
+  .login .password-input {
+    color: #00000054;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    font-weight: 700;
+    left: 123px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 263px;
+  }
+  
+  .login .username-input {
+    color: #00000054;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    font-weight: 700;
+    left: 123px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 162px;
+  }
+
+  .login .login-button {
+    align-items: center;
+    background-color: #915da3bf;
+    border-radius: 6px;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    left: 180px;
+    padding: 20px;
+    position: absolute;
+    top: 385px;
+    cursor: pointer;
+  }
+
+  .form-input{
+    border: none;
+    background-color: #d9d9d9;
+    position: relative;
+    height: 60px;
+    width: 280px;
+    margin-top: -11px;
+  }
+
+  .login .login-text {
+    color: #000000;
+    font-family: 'Kadwa', serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+
+  .login .register-button {
+    color: #d9d9d9;
+    background-color: transparent;
+    border: none;
+    font-family: 'Kadwa', serif;
+    font-size: 24px;
+    font-weight: 400;
+    left: 1284px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover{
+    box-shadow: inset 100px 0 0 0 #915da3bf;
+    color: #d9d9d9
+  }
+
+  .login .contact-us-button {
+    color: #d9d9d9;
+    background-color: transparent;
+    border: none;
+    font-family: 'Kadwa', serif;
+    font-size: 24px;
+    font-weight: 400;
+    left: 1099px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    cursor: pointer;
+  }
+  
+  .contact-us-button:hover{
+    box-shadow: inset 0 0 0 100px #915da3bf;
+    color: #d9d9d9
+  }
+
+  .login .home-button {
+    color: #d9d9d9;
+    background-color: transparent;
+    border: none;
+    font-family: 'Kadwa', serif;
+    font-size: 24px;
+    font-weight: 400;
+    left: 972px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    cursor: pointer;
+  }
+  
+  .home-button:hover{
+    box-shadow: inset 0 0 0 100px #915da3bf;
+    color: #d9d9d9
+  }
+
+  .login .pdfpal-button {
+    -webkit-text-stroke: 3px #221b1b;
+    color: #915da3bf;
+    background-color: transparent;
+    border: none;
+    font-family: 'Kadwa', serif;
+    font-size: 64px;
+    font-weight: 800;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    width: 279px;
+    cursor: pointer;
+  }

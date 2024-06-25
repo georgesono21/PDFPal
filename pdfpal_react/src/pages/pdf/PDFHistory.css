@@ -1,0 +1,64 @@
+/* PDFHistory.css */
+
+.pdf-history-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  color: #d9d9d9; /* Set the text color */
+}
+
+.pdf-history-container h2 {
+  margin-bottom: 20px;
+}
+
+.pdf-list {
+  width: 60%;
+}
+
+.pdf-item {
+  background-color: #292929; /* Background color for each PDF item */
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.pdf-item h3 {
+  color: #007bff; /* Title color */
+}
+
+.pdf-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pdf-item li {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.pdf-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pdf-button {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns items to the left */
+  margin: 0; /* Removes default margin */
+  border: none;
+  padding: 0; /* Remove default padding */
+  cursor: pointer;
+  font-size: inherit; /* Inherit font size from parent (h3) */
+  font-weight: inherit; /* Inherit font weight from parent (h3) */
+}
+
+.pdf-button h3 {
+  margin: 0; /* Remove default margin for h3 */
+  /* padding: 10px; Add padding for better visual appearance */
+}

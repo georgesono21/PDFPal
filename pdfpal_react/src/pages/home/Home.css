@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+
+
+.nav-list li, .nav-list a, .logout button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; /* Set the font weight to 800 for bold */
+  font-size: 16px; /* Increase the font size for a bigger appearance */
+  color: #d9d9d9; /* Set the color to purple */
+  text-decoration: none;
+
+}
+
+.logo {
+  -webkit-text-stroke: 3px #221b1b;
+    color: #915da3bf;
+    background-color: transparent;
+    border: none;
+    font-family: 'Kadwa', serif;
+    font-size: 64px;
+    font-weight: 800;
+    /* left: 20px; */
+    letter-spacing: 0;
+    line-height: normal;
+    /* position: absolute; */
+    text-align: center;
+    /* top: -1px;
+    width: 279px; */
+    cursor: pointer; 
+}
+
+.home-container{
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-left: 30px 10%;
+  padding-right: 30px 10%;
+  padding-bottom: 30px 10%;
+  background-color: #2f2f 2f;
+}
+
+.nav-list{
+  list-style: none;
+}
+
+.nav-list li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-list li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-list li a:hover{
+  color: #0088a9;
+}
+
+.logout button{
+  padding: 9px 25px;
+  background-color: #915da3bf;
+  border: blueviolet;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+
+}
+
+.logout button:hover{
+  background-color: rgba(0,136, 169,0.8);
+
+}

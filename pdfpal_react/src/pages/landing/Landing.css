@@ -1,0 +1,204 @@
+/* imports for fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');             /* regular face */
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@700&display=swap');    /* bold face */
+
+.landing {
+  background-color: #2f2f2f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.landing .div {
+  background-color: #2f2f2f;
+  height: 1600px;
+  position: relative;
+  width: 1432px;
+}
+
+.landing .overlap {
+  height: 1342px;
+  left: 125px;
+  position: absolute;
+  top: -9px;
+  width: 824px;
+}
+
+.landing .overlap-group {
+  height: 1342px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 880px;
+}
+.landing .pdfpal-logo {
+  -webkit-text-stroke: 3px #221b1b;
+  color: #915da3bf;
+  font-family: "Kadwa", Helvetica;
+  font-size: 128px;
+  font-weight: 700;
+  left: 10;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  /* background-color: transparent; Set the background to transparent */
+  text-shadow: none; /* Remove the text shadow */
+  top: 50px;
+}
+
+.landing .pdfpal-logo:focus {
+  outline: none;
+}
+
+.landing .your-trusted {
+  color: #ffffff;
+  font-family: "Kadwa", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 212px;
+  width: 880x;
+}
+
+.landing .span {
+  font-weight: 700;
+}
+
+.landing .question-header {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.landing .question-body {
+  font-size: 20px;
+  width: 880px;
+}
+
+.landing .home-wrapper {
+  color: #d9d9d9;
+  font-family: "Kadwa", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 712px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 112px;
+}
+
+.home-wrapper:hover{
+  background-color: #65177fbf;
+}
+
+.landing .signup-login-container {
+  background-color: #d9d9d9;
+  height: 213px;
+  left: 1033px;
+  position: absolute;
+  top: 264px;
+  width: 222px;
+}
+
+.landing .login-container {
+  height: 68px;
+  left: 29px;
+  position: absolute;
+  top: 37px;
+  width: 163px;
+}
+
+.landing .login-signup-rectangle {
+  background-color: #915da3bf;
+  height: 59px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 159px;
+  cursor: pointer;
+}
+
+.login-signup-rectangle:hover{
+  background-color: #65177fbf;
+}
+
+.landing .login-text-wrapper {
+  color: #000000;
+  font-family: "Kadwa", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  width: 163px;
+}
+
+.landing .signup-container {
+  height: 66px;
+  left: 30px;
+  position: absolute;
+  top: 126px;
+  width: 159px;
+}
+
+.landing .signup-text-wrapper {
+  color: #040404;
+  font-family: "Kadwa", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  width: 79px;
+}
+
+.landing .register-text-wrapper {
+  color: #d9d9d9;
+  font-family: "Kadwa", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 1149px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 103px;
+}
+
+.register-text-wrapper:hover{
+  background-color: #65177fbf;
+}
+
+.landing .contact-text-wrapper {
+  color: #d9d9d9;
+  font-family: "Kadwa", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 964px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 103px;
+}
+
+.contact-text-wrapper:hover{
+  background-color: #65177fbf;
+}
+
+.no-style {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color */
+  /* You can add more styles as needed to remove other default styling */
+}

@@ -2,6 +2,10 @@
 
 PDFPal is a React application designed for a user to interact with a PDF through a Chatbot. It leverages various LLM libraries and AI tools to provide a seamless experience for handling text-specific questions in dense PDF documents. This was made as a software engineering project for CSE115A at UCSC in the Fall 2023.
 
+# Demo
+
+https://www.youtube.com/watch?v=GrI-17GLu7Q
+
 ## Table of Contents
 
 - [Dependencies](#dependencies)
